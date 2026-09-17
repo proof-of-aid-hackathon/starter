@@ -36,7 +36,7 @@ through the official submission forms.
 # 1. Project snapshot
 
 |                                |                                                                                                                   |
-| ------------------------------ | ----------------------------------------------------------------------------------------------------------------- |
+| --------------------------------| -------------------------------------------------------------------------------------------------------------------|
 | **Project name**               | <!-- Name -->                                                                                                     |
 | **Team ID**                    | <!-- e.g. Team 07 -->                                                                                             |
 | **Team members**               | <!-- Names -->                                                                                                    |
@@ -48,10 +48,6 @@ through the official submission forms.
 | **Code**                       | [`implementation/`](./implementation/)                                                                            |
 | **Run instructions**           | [`implementation/README.md`](./implementation/README.md)                                                          |
 | **Demo entry point**           | <!-- URL, command, screen, endpoint, script, etc. -->                                                             |
-
-<!--
-[ORGANIZERS: ADD PRE-EXISTING-WORK DISCLOSURE FIELD HERE IF THE FINAL RULES REQUIRE IT]
--->
 
 ---
 

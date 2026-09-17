@@ -506,8 +506,7 @@ document everything required in `implementation/README.md`.
 ---
 
 # 10. Thursday checkpoint
-
-[ORGANIZERS: CONFIRM CHECKPOINT DEADLINE AND ADD SUBMISSION FORM]
+> **[Checkpoint submission form](https://forms.gle/V1Xm4fH4pHpEBEmN8)**
 
 There is **no separate checkpoint document**.
 
@@ -559,6 +558,7 @@ Later commits do not change the submitted checkpoint.
 ---
 
 # 11. Final submission
+> **[Final submission form](https://forms.gle/B2vtMJdtdV5pBG7Y7)**
 
 Before the deadline:
 
@@ -582,8 +582,6 @@ git rev-parse HEAD
 ```
 
 Submit the SHA returned by the final command.
-
-**[ORGANIZERS: ADD FINAL SUBMISSION FORM]**
 
 > [!IMPORTANT]
 > The commit SHA submitted through the official form defines the version that will be evaluated.
@@ -617,19 +615,18 @@ You do not need to document every autocomplete suggestion.
 
 ## Thursday 24
 
-| Time            | Activity                                                             |
-| --------------- | -------------------------------------------------------------------- |
-| 08:30           | Accreditation                                                        |
-| 09:00           | Welcome and talks                                                    |
-| ~11:00          | Breakfast, remaining team formation, and Hackathon start — Room 3.01 |
-| Rest of the day | Development and mentoring                                            |
-
-[ORGANIZERS: ADD CHECKPOINT TIME IF CONFIRMED]
+| Time                | Activity                                                             |
+| ---------------------| ----------------------------------------------------------------------|
+| 08:30               | Accreditation                                                        |
+| 09:00               | Welcome and talks                                                    |
+| ~11:00              | Breakfast, remaining team formation, and Hackathon start — Room 3.01 |
+| Rest of the day     | Development and mentoring                                            |
+| Checkpoint deadline | Checkpoint submission                                                |
 
 ## Friday 25
 
 | Time        | Activity                          |
-| ----------- | --------------------------------- |
+| -------------| -----------------------------------|
 | Morning     | Development and mentoring         |
 | **14:00**   | **Final submission deadline**     |
 | 14:00–15:00 | Participant lunch and jury review |
@@ -637,8 +634,6 @@ You do not need to document every autocomplete suggestion.
 | 15:00–16:00 | Pitch preparation                 |
 | 16:00       | Pitches                           |
 | 17:00       | Awards and closing                |
-
-[ORGANIZERS: ADD FINAL PITCH DURATION AND Q&A FORMAT WHEN CONFIRMED]
 
 ---
 
