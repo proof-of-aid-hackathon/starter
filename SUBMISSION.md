@@ -195,7 +195,7 @@ Focus on choices where a reasonable alternative existed.
 -->
 
 | Decision          | What we chose   | Why                | Trade-off / assumption |
-| ----------------- | --------------- | ------------------ | ---------------------- |
+| -------------------| -----------------| --------------------| ------------------------|
 | <!-- Decision --> | <!-- Choice --> | <!-- Rationale --> | <!-- Trade-off -->     |
 | <!-- Decision --> | <!-- Choice --> | <!-- Rationale --> | <!-- Trade-off -->     |
 
@@ -282,7 +282,7 @@ Describe where the effort of your **implemented contribution** was concentrated.
 | **Real-world connection** | <!-- X% --> | <!-- Brief explanation -->            |
 | **Blockchain**            | <!-- X% --> | <!-- Brief explanation -->            |
 
-The percentages should sum to approximately 100%.
+The percentages should sum to 100%.
 
 They describe your implementation effort, not the complete system design.
 

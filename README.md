@@ -13,11 +13,11 @@ All submitted work, documentation, demos, and the final pitch must be in **Engli
 ## At a glance
 
 | Question                                            | Answer                                                                                                                    |
-| --------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------- |
+| -----------------------------------------------------| ---------------------------------------------------------------------------------------------------------------------------|
 | **What are we solving?**                            | The broader Proof of Aid problem.                                                                                         |
 | **What are we expected to do?**                     | First design your complete Proof of Aid system. Then choose one meaningful part of that system and implement it in depth. |
 | **Do we need to build the whole system?**           | **No.** The complete system is a design exercise. Only one meaningful contribution needs to be implemented.               |
-| **Do we have to use blockchain?**                   | Use it only where it provides meaningful value.                                                                       |
+| **Do we have to use blockchain?**                   | Use it where it provides meaningful value.                                                                                |
 | **Can we choose our own approach?**                 | Yes. Your system design, technologies, implementation focus, and technical approach are open.                             |
 | **Are there mandatory tracks?**                     | No. The contribution areas below are prompts, not tracks.                                                                 |
 | **Where does our code go?**                         | `implementation/`                                                                                                         |
@@ -52,8 +52,6 @@ Designing Proof of Aid means deciding how these actors, flows, technologies, tru
 There is no single expected architecture.
 
 Your system may involve interfaces, conventional software, APIs, identity, payments, evidence, external systems, data processing, blockchain, or any combination that you can justify.
-
-Blockchain is one possible tool within the system, not a requirement or an objective by itself.
 
 ---
 
@@ -169,7 +167,7 @@ Questions you might explore:
 Once you choose what to implement, describe where that **implementation effort** is concentrated across three dimensions:
 
 | Dimension                 | Includes                                                                                                                                |
-| ------------------------- | --------------------------------------------------------------------------------------------------------------------------------------- |
+| ---------------------------| -----------------------------------------------------------------------------------------------------------------------------------------|
 | **UX**                    | User flows, interfaces, dashboards, reporting, visualisation, and interaction design.                                                   |
 | **Real-world connection** | Evidence, verification, identity, attestations, oracles, payments, APIs, integrations, external data, and real-world events.            |
 | **Blockchain**            | Smart contracts, shared records, on-chain hashes or attestations, settlement, traceability, or other blockchain-based trust mechanisms. |
@@ -187,11 +185,9 @@ These percentages:
 * describe where your team concentrated its **implementation effort**;
 * are not scores;
 * have no ideal distribution;
-* should sum to approximately 100%.
+* should sum to 100%.
 
 They describe the part you actually decided to build, not the complete system design.
-
-A project is not stronger simply because it uses more blockchain.
 
 ---
 
@@ -291,7 +287,7 @@ Consider:
 * where trust exists;
 * what should be verifiable;
 * what should remain private;
-* where blockchain is useful, if anywhere;
+* where blockchain is useful;
 * what important trade-offs your design introduces.
 
 Your design does not need to be final before you start implementing.
@@ -617,15 +613,7 @@ You do not need to document every autocomplete suggestion.
 
 ---
 
-# 13. Evaluation
-
-[ORGANIZERS: INSERT FINAL APPROVED EVALUATION RUBRIC]
-
-The rubric published here before the Hackathon will be the participant-facing evaluation reference.
-
----
-
-# 14. Schedule
+# 13. Schedule
 
 ## Thursday 24
 
@@ -654,7 +642,7 @@ The rubric published here before the Hackathon will be the participant-facing ev
 
 ---
 
-# 15. Resources
+# 14. Resources
 
 ## Must read
 
@@ -672,7 +660,7 @@ You do not need to read every optional resource before starting.
 
 ---
 
-# 16. Before submitting
+# 15. Before submitting
 
 Your submission is ready when:
 
