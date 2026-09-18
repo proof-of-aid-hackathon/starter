@@ -12,7 +12,7 @@ Your architecture, stack, and implementation focus are open. Use blockchain wher
 
 ## Start here
 
-1. **Design the system** in [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md): actors, e2e flow, architecture, trust assumptions, and trade-offs.
+1. **Design the system** in [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md): actors, e2e flow, architecture, trust, and trade-offs.
 2. **Choose a concrete problem** within that design and implement it under [code/](code/).
 3. **Prove it works** with a reproducible demo and complete the [runbook](docs/RUNBOOK.md).
 4. **Complete [the submission](docs/SUBMISSION.md)** and submit a commit SHA from `main` through the appropriate form.
