@@ -12,12 +12,21 @@ Your architecture, stack, and implementation focus are open. Use blockchain wher
 
 ## Start here
 
-1. **Design the system** in [SUBMISSION.md](SUBMISSION.md): actors, end-to-end flow, architecture, trust assumptions, and trade-offs.
-2. **Choose a concrete problem** within that design and implement it under [implementation/](implementation/).
-3. **Prove it works** with a reproducible demo and complete the [run instructions](implementation/README.md).
-4. **Submit a commit SHA** from `main` through the appropriate form.
+1. **Design the system** in [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md): actors, end-to-end flow, architecture, trust assumptions, and trade-offs.
+2. **Choose a concrete problem** within that design and implement it under [code/](code/).
+3. **Prove it works** with a reproducible demo and complete the [runbook](docs/RUNBOOK.md).
+4. **Complete [the submission](docs/SUBMISSION.md)** and submit a commit SHA from `main` through the appropriate form.
 
 The complete system is a design exercise; you are only expected to implement one meaningful part. Your design can evolve as you build.
+
+## Repository guide
+
+| Path | Purpose |
+| --- | --- |
+| [code/](code/) | Implementation, with a short overview in [code/README.md](code/README.md). |
+| [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md) | Complete system design, actors, flow, and trade-offs. |
+| [docs/RUNBOOK.md](docs/RUNBOOK.md) | Setup, configuration, validation, and reproducible demo. |
+| [docs/SUBMISSION.md](docs/SUBMISSION.md) | Contribution, implementation boundaries, evidence, limitations, and AI disclosure. |
 
 ## Choose your focus
 
@@ -34,34 +43,6 @@ These are prompts, not mandatory tracks. Combine them or choose another relevant
 A useful scope statement:
 
 > Within our complete Proof of Aid design, we focus on **[area]**, addressing **[problem]** through **[approach]**.
-
-## Deliverables
-
-| Deliverable | What it should contain |
-| --- | --- |
-| [SUBMISSION.md](SUBMISSION.md) | Complete system design, chosen contribution, implementation boundaries, demo evidence, limitations, and AI disclosure. |
-| [implementation/](implementation/) | The implemented contribution, organized however your project requires. |
-| [implementation/README.md](implementation/README.md) | Requirements, setup, configuration, run and validation commands, and everything needed to reproduce the demo. |
-| Submitted commit SHA | The exact version on `main` that should be evaluated. |
-
-Label capabilities consistently:
-
-- **Implemented:** working code or another demonstrable technical artifact exists.
-- **Simulated / mocked:** a real component is replaced or simplified.
-- **Designed only:** part of the proposed system, but not implemented.
-- **Out of scope:** deliberately excluded from the proposed Hackathon scope.
-
-Report implementation effort across **UX**, **Real-world connection**, and **Blockchain**, totalling **100%**. These describe effort, not scores; there is no ideal distribution.
-
-## Make the demo reproducible
-
-Show one concrete result:
-
-```text
-Initial state → Action → System behaviour → Observable result
-```
-
-Document required services, APIs, networks, seeded data, safe test accounts, and manual steps. Identify mocks explicitly. Test the scenario from the documented initial state.
 
 ## Checkpoint and final submission
 
@@ -87,9 +68,11 @@ For each submission:
 
 3. Submit **Team ID + commit SHA** through the relevant form.
 
-The submitted SHA defines the evaluated version. Later commits do not change it. There is no separate checkpoint document, and the SHA does not belong in `SUBMISSION.md`. Continue working after the checkpoint; repositories become read-only for participants after the final deadline.
+The submitted SHA defines the evaluated version. Later commits do not change it. There is no separate checkpoint document, and the SHA does not belong in `docs/SUBMISSION.md`. Continue working after the checkpoint; repositories become read-only for participants after the final deadline.
 
 ## Schedule
+
+Month, year, timezone, and exact Thursday checkpoint deadline are awaiting organizer confirmation.
 
 | Day | Time | Activity |
 | --- | --- | --- |
@@ -115,6 +98,6 @@ The submitted SHA defines the evaluated version. Later commits do not change it.
 - [ ] No secrets, private keys, production credentials, or sensitive personal data are committed.
 - [ ] Everything to be evaluated is pushed to `main`, and **Team ID + SHA** is submitted through the form.
 
-## Resources
+## License
 
-*Organizers: add the core Proof of Aid reference, recommended resources, and optional technical or domain reading.*
+The code and documentation in this repository are licensed under the [MIT License](LICENSE), matching the [Proof of Aid organization license](https://github.com/proof-of-aid/.github/blob/main/LICENSE). Third-party materials retain their respective licenses.

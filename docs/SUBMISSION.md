@@ -13,38 +13,10 @@ submission; submit the commit SHA through the official form, not here. -->
 | **System vision** | <!-- One sentence: what does the complete system enable? --> |
 | **Implementation focus** | <!-- Area, concrete problem, and approach in one sentence. --> |
 | **What we built** | <!-- One sentence describing the working artifact. --> |
-| **Code & run instructions** | [implementation/](implementation/) · [Setup and demo](implementation/README.md) |
-| **Demo entry point** | <!-- URL, command, page, or script. --> |
+| **Code & run instructions** | [code/](../code/) · [Setup and demo](RUNBOOK.md) |
+| **Complete system design** | [ARCHITECTURE.md](ARCHITECTURE.md) |
 
-## 2. Complete system design
-
-Describe the full Proof of Aid system you envision, including parts you did not build.
-
-### Vision and flow
-
-<!-- Explain the goal and main design principles. Name the actors and their roles,
-then describe 5–10 steps from the initial need to the outcome and transparent history. -->
-
-### Architecture
-
-<!-- Add a compact Mermaid diagram or repository image showing major components,
-external systems, interactions, and meaningful data or trust boundaries. -->
-
-| Component | Responsibility | Technology / approach | Why |
-| --- | --- | --- | --- |
-| | | | |
-
-### Decisions and trade-offs
-
-<!-- Cover the choices that materially shape the system: trust and verification,
-privacy/security, identity and permissions, evidence and disputes, funding,
-on/off-chain boundaries, or external dependencies. Include assumptions and alternatives. -->
-
-| Decision | Choice and rationale | Trade-off / assumption |
-| --- | --- | --- |
-| | | |
-
-## 3. Implemented contribution
+## 2. Implemented contribution
 
 ### Problem and approach
 
@@ -58,7 +30,10 @@ data flow, API/contract logic, verification, or integration boundaries as releva
 
 ### Implementation boundary
 
-Use **Implemented**, **Simulated / mocked**, **Designed only**, or **Out of scope**.
+- **Implemented:** working code or another demonstrable technical artifact exists.
+- **Simulated / mocked:** a real component is replaced or simplified.
+- **Designed only:** part of the proposed system, but not implemented.
+- **Out of scope:** deliberately excluded from the proposed Hackathon scope.
 
 | Capability | Status | What exists in the prototype |
 | --- | --- | --- |
@@ -74,32 +49,21 @@ Percentages describe implementation effort, must total **100%**, and have no ide
 | Real-world connection | % | |
 | Blockchain | % | |
 
-## 4. Demo and validation
+## 3. Demo and validation
 
 **What the demo proves:** <!-- One specific claim about the implemented contribution. -->
 
-**Initial state:** <!-- Required services, seed data, accounts, wallets, or contracts.
-Link to implementation/README.md for exact setup instructions. -->
-
-| Step | Action | Expected observable result |
-| ---: | --- | --- |
-| 1 | | |
-| 2 | | |
-| 3 | | |
+**Reproduce the demo:** Follow [RUNBOOK.md](RUNBOOK.md) for setup, initial state, scenario, and expected results.
 
 **Validation evidence:** <!-- Link to relevant tests, output, logs, transactions,
 screenshots, or resulting UI/database state. -->
 
-**Dependencies:** <!-- Identify external services, test networks, mocks, and manual
-steps. Link to operational details and any local fallback in implementation/README.md.
-Include only safe test credentials; never real secrets or private keys. -->
-
-## 5. Limitations and next step
+## 4. Limitations and next step
 
 <!-- List the important technical, product, or validation limitations of the
 prototype, then name the single most useful next step. -->
 
-## 6. AI usage
+## 5. AI usage
 
 <!-- Disclose meaningful AI assistance; trivial autocomplete need not be listed.
 If none, say so. -->
