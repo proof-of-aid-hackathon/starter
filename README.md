@@ -100,4 +100,5 @@ Month, year, timezone, and exact Thursday checkpoint deadline are awaiting organ
 
 ## License
 
-The code and documentation in this repository are licensed under the [MIT License](LICENSE), matching the [Proof of Aid organization license](https://github.com/proof-of-aid/.github/blob/main/LICENSE). Third-party materials retain their respective licenses.
+The code and documentation in this repository are licensed under the [MIT License](LICENSE), matching the [Proof of Aid organization license](https://github.com/proof-of-aid/.github/blob/main/LICENSE).
+Third-party materials retain their respective licenses.
